@@ -10,7 +10,7 @@ public abstract class WebContainer {
 	}
 
 	public void process(String data) {
-
+System.out.println("process method");
 		RequestHandler rh = null;
 		rh = getHandler();
 		System.out.println("web container handling the request to Request handler to process with data" + data);
